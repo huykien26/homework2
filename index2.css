@@ -1,0 +1,122 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f5f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+/* phần đầu trang */
+header {
+    background-color: #ffb74d;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-color: #f57c00;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+/* các mục trong thanh điều hướng */
+nav li {
+    display: inline-block; /* Hiển thị các mục theo hàng ngang */
+    width: 120px; /* Đặt chiều rộng cố định cho mỗi mục */
+    text-align: center; /* Căn giữa văn bản trong mỗi mục */
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #ffcc80;
+    color: #333;
+}
+/* nội dung chính */
+main {
+    padding: 20px;
+    background-color: #fff8e1;
+    font-size: 18px;
+}
+h1 {
+    color: #5a3825;
+    text-align: center;
+    font-family: "Georgia", serif;
+}
+h2 {
+    color: #6d4c41;
+}
+p {
+    line-height: 1.6;
+}
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color: #f57c00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+form {
+    background-color: #fff3e0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #ff9800;
+}
+.skip-link {
+    position: static;
+    display: inline-block;
+    background: #ffb74d;
+    color: #000;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.skip-link:focus {
+    top: 10px;
+}
+.luoi {
+    display: grid;
+    grid-template-columns: space-around;
+    justify-content: space-evenly;
+    align-items: start;
+    row-gap: 20px;
+}
+.luoi img {
+    width: 100%;
+    border-radius: 10px;
+}
